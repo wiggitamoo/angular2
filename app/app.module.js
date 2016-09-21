@@ -9,13 +9,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var platform_browser_1 = require("@angular/platform-browser");
-var ng_module_1 = require("@angular/core/src/metadata/ng_module");
 var app_component_1 = require("./app.component");
+var core_1 = require("@angular/core");
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        ng_module_1.NgModule({
+        core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
             declarations: [app_component_1.AppComponent],
             bootstrap: [app_component_1.AppComponent]
